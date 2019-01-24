@@ -1,6 +1,6 @@
 var name = prompt('닉네임을 설정해주세요')
 
-let socket = io.connect('http://13.209.19.68:80');
+let socket = io.connect('http://13.209.19.68:8080');
 
 socket.on('connect', () => {
     console.log(`[on] connent`);
