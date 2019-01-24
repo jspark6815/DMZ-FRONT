@@ -30,6 +30,10 @@ socket.on('chat',function(obj){
     floating(obj.userData.nickname, obj.msg);
     //a(obj.event + " " + obj.)
 })
+socket.on('question',function(obj){
+    console.log(`[on] question`);
+    alert(obj.word)
+})
 
 
 function txt() {
