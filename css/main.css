@@ -13,6 +13,9 @@ p:nth-child(2n+1) {
     background-color: #d6d6d6;
     color: white;
 }
+p:last-child {
+    margin-bottom: 70px;
+}
 #keyboard {
     position: fixed;
     bottom: 0;
